@@ -1,5 +1,5 @@
 class PostsController < ApplicationController
-  def index #indexアクションを定義
+  def index #indexアクションを定義A
     @posts = Post.all
   end
 
